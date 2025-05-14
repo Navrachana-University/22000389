@@ -1,0 +1,16 @@
+start
+var a = 3
+var b = 7
+var sum = a + b
+var diff = b - a
+var prod = a * b
+var div = b / a
+if sum > 10 {
+    sum = sum - 1
+} else {
+    sum = sum + 1
+}
+loop while sum < 20 {
+    sum = sum + 1
+}
+stop
